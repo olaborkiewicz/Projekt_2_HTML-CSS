@@ -50,6 +50,7 @@ body {
   padding: 150px 0;
   background-color: rgb(0, 0, 0, 0.25);
   background-size: cover;
+  height: 100vh;
 }
 
 .header1 {
@@ -204,14 +205,13 @@ body {
 #footer {
   height: 150px;
   background: #4e4e4e;
-  padding: 40px 0;
 }
 
 .text3 {
   font-weight: 700;
   font-size: 18px;
   color: #ffffff;
-  margin: 0;
+  margin: auto 0;
   text-align: center;
 }
 
@@ -219,7 +219,6 @@ body {
   display: flex;
   color: #ffffff;
   margin: 0 auto;
-  padding-top: 20px;
   justify-content: center;
 }
 
@@ -305,6 +304,7 @@ body {
   .banner {
     padding: 260px 0;
     background-color: rgb(0, 0, 0, 0.25);
+    height: auto;
   }
 
   .header1 {
