@@ -19,7 +19,6 @@ body {
   width: auto;
   padding: 0 12px;
   flex-direction: column;
-  justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -50,6 +49,7 @@ body {
 .banner {
   padding: 150px 0;
   background-color: rgb(0, 0, 0, 0.25);
+  background-size: cover;
 }
 
 .header1 {
@@ -74,8 +74,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 180px;
-  height: 45px;
+  width: 165px;
+  height: 42px;
   font-weight: 700;
   font-size: 18px;
   color: #ffffff;
@@ -204,19 +204,23 @@ body {
 #footer {
   height: 150px;
   background: #4e4e4e;
+  padding: 40px 0;
 }
 
 .text3 {
   font-weight: 700;
   font-size: 18px;
   color: #ffffff;
-  margin: auto 0;
+  margin: 0;
+  text-align: center;
 }
 
 .icons {
   display: flex;
   color: #ffffff;
-  margin: auto 0;
+  margin: 0 auto;
+  padding-top: 20px;
+  justify-content: center;
 }
 
 .fa-brands,
@@ -224,7 +228,7 @@ body {
   width: 40px;
   height: 40px;
   margin-right: 20px;
-  font-size: small;
+  font-size: xx-large;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -404,7 +408,8 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    margin-top: 100px;
+    margin-top: 0;
+    text-justify: auto;
   }
 
   .p1 {
@@ -415,6 +420,7 @@ body {
   .item3 {
     text-align: right;
     order: 3;
+    text-justify: right;
   }
 
   #oferta {
