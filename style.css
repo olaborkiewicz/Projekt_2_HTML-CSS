@@ -87,7 +87,7 @@ body {
 }
 
 #o_nas {
-  padding: 100px 0;
+  padding: 50px 0;
   height: fit-content;
   background-color: #f1f1f1;
 }
@@ -118,22 +118,23 @@ body {
 }
 
 .circle {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 55px 0;
 }
 
 .circle:nth-of-type(odd) {
   background-image: url(woman.jpg);
+  margin: 0;
 }
 
 .circle:nth-of-type(even) {
   background-image: url(man.jpg);
   order: 3;
+  margin-top: 50px;
 }
 
 .item2,
@@ -211,7 +212,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #ffffff;
-  margin: auto 0;
+  margin: 50px 0 10px;
   text-align: center;
 }
 
