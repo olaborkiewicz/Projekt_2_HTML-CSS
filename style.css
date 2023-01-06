@@ -417,6 +417,10 @@ body {
     margin-bottom: 20px;
   }
 
+  .p1r {
+    text-align: right;
+  }
+
   .item3 {
     text-align: right;
     order: 3;
