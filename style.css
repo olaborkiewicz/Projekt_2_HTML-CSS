@@ -189,8 +189,8 @@ body {
   position: absolute;
   background-color: #e07a64;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 37px;
+  height: 37px;
   top: -15px;
   left: -15px;
 }
@@ -229,6 +229,16 @@ body {
   height: 40px;
   margin-right: 20px;
   font-size: xx-large;
+}
+
+@media only screen and (min-width: 768px) {
+  .circle:nth-of-type(odd) {
+    margin: 0 25px;
+  }
+
+  .circle:nth-of-type(even) {
+    margin: 25px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -291,6 +301,8 @@ body {
 
   .disabled_items {
     cursor: not-allowed;
+    color: #ffffff;
+    text-decoration: none;
   }
 
   #main_section {
@@ -346,7 +358,7 @@ body {
   }
 
   #o_nas {
-    padding: 50px 0;
+    padding: 100px 0;
     height: fit-content;
     background-color: #f1f1f1;
   }
@@ -354,14 +366,13 @@ body {
   .header3,
   .header4 {
     height: 100px;
-    margin-top: 70px;
     font-weight: 700;
     font-size: 36px;
     text-align: left;
   }
 
   .header3 {
-    color: #152d41;
+    margin-bottom: 70px;
   }
 
   .header4 {
@@ -369,13 +380,9 @@ body {
     margin-bottom: 40px;
   }
 
-  .container_specjalisci {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .container_specjalisci:nth-of-type(odd) {
     justify-content: left;
+    margin: 0;
   }
 
   .container_specjalisci:nth-of-type(even) {
@@ -383,24 +390,21 @@ body {
   }
 
   .circle {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 78px 0;
-  }
-
-  .circle:nth-of-type(odd) {
-    background-image: url(woman.jpg);
-    margin-right: 35px;
   }
 
   .circle:nth-of-type(even) {
-    background-image: url(man.jpg);
-    margin-left: 35px;
+    margin: 150px 0 0 35px;
     order: 4;
+  }
+
+  circle:nth-of-type(odd) {
+    margin-right: 35px;
   }
 
   .item2,
@@ -409,8 +413,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    margin-top: 0;
-    text-justify: auto;
   }
 
   .p1 {
@@ -422,10 +424,13 @@ body {
     text-align: right;
   }
 
+  .item2 {
+    margin-top: 0;
+  }
+
   .item3 {
     text-align: right;
-    order: 3;
-    text-justify: right;
+    margin-top: 140px;
   }
 
   #oferta {
